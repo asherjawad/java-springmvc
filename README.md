@@ -20,3 +20,6 @@ We can add multiple packages by using @ComponentScan({"com.packagename","com.pac
 
 
 ## Usage of AbstractAnnotationConfigDispatcherServletInitializer
+
+
+## How to use InternalResourceViewResolver
