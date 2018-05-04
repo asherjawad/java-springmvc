@@ -3,7 +3,7 @@
 ## Core Detail for SpringMVC
 
 
-How to use Use Annotations
+### How to use Use Annotations
 Controller, Configuration, RequestMapping, ComponentScan
 
 @Controller
