@@ -21,7 +21,7 @@ public class AddController {
 			AddService as = new AddService();
 			int k = as.add(i, j);
 			ModelAndView mv  = new ModelAndView();
-			mv.setViewName("Display.jsp");
+			mv.setViewName("Display");
 			mv.addObject("result",k);
 			return mv;
 		}
