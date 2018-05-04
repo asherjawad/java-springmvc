@@ -8,6 +8,7 @@ import java.sql.ResultSet;
 public class LoginService {
   public boolean Check(String uname,String pword) {
 	 
+	  
 	String url = "jdbc:mysql://localhost:3306/mydb";
 	String u  = "root";
 	String p = "root";
