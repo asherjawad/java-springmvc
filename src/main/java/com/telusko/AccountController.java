@@ -5,12 +5,13 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class AccountController {
 	
-	@RequestMapping("/auth")
+	@RequestMapping(value="/auth", method=RequestMethod.GET)
 	public ModelAndView CheckUser(HttpServletRequest request, HttpServletResponse response) {
 		
 		String uname = request.getParameter("uname");
