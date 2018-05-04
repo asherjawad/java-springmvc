@@ -12,6 +12,8 @@
  <input type="text" id="pword" name="pword">
  <input type="submit">
  ${result}
+ 
+ 
 </form>
 </body>
 </html>
