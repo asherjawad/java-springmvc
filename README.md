@@ -13,4 +13,8 @@ Controller, Configuration, RequestMapping, ComponentScan
 @RequestMapping(value = "add/{id}", method = RequestMethod.POST)
 public String addPerson(@RequestParam("name") String name, @PathVariable("id") String id) 
 
+Adding Config Class by Adding @Configuration
+
+We can add multiple packages by using @ComponentScan({"com.packagename","com.packagename2"})
+
 
