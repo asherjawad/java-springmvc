@@ -24,4 +24,7 @@ public class AddController {
 			mv.addObject("result",k);
 			return mv;
 		}
+		
+		@RequestMapping("/added")
+		public void added() {}
 }
